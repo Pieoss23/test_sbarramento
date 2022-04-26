@@ -1,0 +1,96 @@
+:root {
+    --body-bg: #F5F5FB;
+    --side-bg: #FFFFFF;
+    --box-bg: #C4C4C4;
+    --border-radius: 10px; 
+  }
+
+  body {
+      display: flex;
+      height: 100vh;
+  }
+
+  nav {
+    width: 10vw;
+    background-color: var(--side-bg);
+    padding: 2em;
+  }
+
+  main {
+    width: 70vw;
+    background-color: var(--body-bg);
+    padding: 2em;
+
+}
+
+  .top_header {
+    display: flex;
+    justify-content: space-between;
+}
+    
+.top_header p {
+    background-color: var(--box-bg);
+    padding: 1em;
+
+}
+
+.top_header p:first-child {
+    width: 55%;
+    border-radius: var(--border-radius);
+}
+
+.bottom_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_bottom {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.bottom_header p {
+    padding: 1em;
+    background-color: var(--box-bg);
+
+}
+
+.article {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    margin: 2em 0 0 0;
+}
+
+.article span {
+    border-radius: var(--border-radius);
+}
+
+.article > span {
+    background-color: var(--box-bg);
+    height: 30vh;
+    width: 100%;
+}
+
+.article div {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+
+} 
+
+.article div span {
+    background-color: var(--box-bg);
+    width: 48%;
+}
+
+  aside {
+    width: 20vw;
+    background-color: var(--side-bg);
+    padding: 2em;
+}
+
